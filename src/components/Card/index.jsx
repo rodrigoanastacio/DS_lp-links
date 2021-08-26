@@ -18,6 +18,7 @@ const Card = () => {
           Marketing de conteúdo e estratégias digitais para negócios online.
         </div>
       </div>
+
       <div className={styles.card__links}>
         <a
           target="_blank"
@@ -27,6 +28,17 @@ const Card = () => {
           Consultoria de Marketing
         </a>
       </div>
+
+      <div className={styles.card__links}>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://forms.gle/JTTeTfunso3nnyDm7"
+        >
+          Análise de Perfil
+        </a>
+      </div>
+
       <div className="inactive">
         <a href="#">Ebook: Guia Simplificado do Marketing Digital</a>
         <span>Em Breve</span>
