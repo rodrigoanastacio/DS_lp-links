@@ -16,10 +16,11 @@
     }
   }
 
-  &__title {
+  &__urlSite {
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 0.625rem;
+    display: block;
   }
 
   &__desc {

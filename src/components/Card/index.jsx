@@ -11,20 +11,29 @@ const Card = () => {
           src="./dayane-silva-avatar.svg"
           alt="Imagem de Dayane Silva"
         />
-        <div className={styles.card__title}>@efeitoborboleta.mkt</div>
+        <a className={styles.card__urlSite} href="#">
+          dayanesilva.com.br
+        </a>
         <div className={styles.card__desc}>
-          Marketing de conteúdo para negócios digitais
+          Marketing de conteúdo e estratégias digitais para negócios online.
         </div>
-        <a href="https://site.dayanesilva.com.br/">dayanesilva.com.br</a>
       </div>
       <div className={styles.card__links}>
-        <a href="#">Link</a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://forms.gle/zt16EzCUZ2pkCzug9"
+        >
+          Consultoria de Marketing
+        </a>
       </div>
-      <div className={styles.card__links}>
-        <a href="#">Link</a>
+      <div className="inactive">
+        <a href="#">Ebook: Guia Simplificado do Marketing Digital</a>
+        <span>Em Breve</span>
       </div>
-      <div className={styles.card__links}>
-        <a href="#">Link</a>
+      <div className="inactive">
+        <a href="#">Newsletter</a>
+        <span>Em Breve</span>
       </div>
     </div>
   );
