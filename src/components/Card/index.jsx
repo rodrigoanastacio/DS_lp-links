@@ -11,7 +11,10 @@ const Card = () => {
           src="./dayane-silva-avatar.png"
           alt="Imagem de Dayane Silva"
         />
-        <a className={styles.card__urlSite} href="#">
+        <a
+          className={styles.card__urlSite}
+          href="https://site.dayanesilva.com.br?utm_source=instagram&utm_medium=link_instagram&utm_campaign=views_site"
+        >
           dayanesilva.com.br
         </a>
         <div className={styles.card__desc}>
