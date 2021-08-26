@@ -8,7 +8,7 @@ const Card = () => {
       <div className={styles.card__header}>
         <img
           className={styles.avatar}
-          src="./dayane-silva-avatar.svg"
+          src="./dayane-silva-avatar.png"
           alt="Imagem de Dayane Silva"
         />
         <a className={styles.card__urlSite} href="#">
