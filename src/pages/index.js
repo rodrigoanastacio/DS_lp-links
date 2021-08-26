@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Hero from '../components/Hero';
 import Card from '../components/Card';
+import MadeBy from '../components/MadeBy';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Hero>
         <Card />
+        <MadeBy />
       </Hero>
     </>
   );
