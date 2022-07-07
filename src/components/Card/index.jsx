@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { LinkItem } from '../LinkItem';
 
 import styles from './styles.module.scss';
 
@@ -17,15 +18,11 @@ const Card = () => {
         </div>
       </div>
 
-      <div className={styles.card__links}>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://forms.gle/zt16EzCUZ2pkCzug9"
-        >
-          Pinterest
-        </a>
-      </div>
+      <LinkItem 
+        linkHref="https://br.pinterest.com/daysiulva/"
+        linkTitle="Pinterest"
+        linkLabel="Pinterest"  
+      />
 
       <div className="inactive">
         <a
