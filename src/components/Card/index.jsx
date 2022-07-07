@@ -8,15 +8,10 @@ const Card = () => {
       <div className={styles.card__header}>
         <img
           className={styles.avatar}
-          src="./dayane-silva-avatar.png"
+          src="./foto-perfil.jpg"
           alt="Imagem de Dayane Silva"
         />
-        <a
-          className={styles.card__urlSite}
-          href="https://site.dayanesilva.com.br?utm_source=instagram&utm_medium=link_instagram&utm_campaign=views_site"
-        >
-          dayanesilva.com.br
-        </a>
+        <h2 className={styles.card__urlSite}>Dayane Silva</h2>        
         <div className={styles.card__desc}>
           Marketing de conteúdo e estratégias digitais para negócios online.
         </div>
@@ -28,26 +23,27 @@ const Card = () => {
           rel="noreferrer"
           href="https://forms.gle/zt16EzCUZ2pkCzug9"
         >
-          Consultoria de Marketing
+          Pinterest
         </a>
       </div>
 
-      <div className={styles.card__links}>
+      <div className="inactive">
         <a
           target="_blank"
           rel="noreferrer"
           href="https://forms.gle/JTTeTfunso3nnyDm7"
         >
-          Análise de Perfil
+          Consultoria de Imagem
         </a>
+        <span>Em Breve</span>
       </div>
 
       <div className="inactive">
-        <a href="#">Ebook: Guia Simplificado do Marketing Digital</a>
+        <a href="#">Canal Youtube</a>
         <span>Em Breve</span>
       </div>
       <div className="inactive">
-        <a href="#">Newsletter</a>
+        <a href="#">Blog</a>
         <span>Em Breve</span>
       </div>
     </div>
