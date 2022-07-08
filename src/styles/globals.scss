@@ -73,3 +73,11 @@ a {
     }
   }
 }
+
+.only-desktop {
+  display: none;
+
+  @media (min-width: 385px) {
+    display: block;
+  }
+}

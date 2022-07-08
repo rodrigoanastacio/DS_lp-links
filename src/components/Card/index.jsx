@@ -12,9 +12,9 @@ const Card = () => {
           src="./foto-perfil.jpg"
           alt="Imagem de Dayane Silva"
         />
-        <h2 className={styles.card__urlSite}>Dayane Silva</h2>        
+        <h2 className={styles.card__urlSite}>Dayane Silva | Imagem & Estilo.</h2>        
         <div className={styles.card__desc}>
-          Marketing de conteúdo e estratégias digitais para negócios online.
+          <p>Para mulheres que querem se vestir bem, <br className='only-desktop' /> sem perder a própria essência.</p>
         </div>
       </div>
 
