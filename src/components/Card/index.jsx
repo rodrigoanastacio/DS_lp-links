@@ -19,6 +19,12 @@ const Card = () => {
       </div>
 
       <LinkItem 
+        linkHref="https://www.youtube.com/channel/UCU0Npl6VAg3iauFw5lM3kiw"
+        linkTitle="Canal Youtube Dayane Silva Moda e Estilo"
+        linkLabel="Canal Youtube | Dayane Silva Moda e Estilo"  
+      />
+
+      <LinkItem 
         linkHref="https://br.pinterest.com/daysiulva/"
         linkTitle="Pinterest"
         linkLabel="Pinterest"  
@@ -35,10 +41,6 @@ const Card = () => {
         <span>Em Breve</span>
       </div>
 
-      <div className="inactive">
-        <a href="#">Canal Youtube</a>
-        <span>Em Breve</span>
-      </div>
       <div className="inactive">
         <a href="#">Blog</a>
         <span>Em Breve</span>
